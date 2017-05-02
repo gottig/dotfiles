@@ -1,0 +1,42 @@
+{
+	"auto_complete_commit_on_tab": true,
+	"auto_match_enabled": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "smooth",
+	"color_scheme": "Packages/Colorsublime - Themes/Abyss.tmTheme",
+	"draw_white_space": "none",
+	"find_selected_text": true,
+	"font_face": "Ubuntu Mono",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"no_bold"
+	],
+	"font_size": 20,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"icon_file_type_enable": true,
+	"ignored_packages":
+	[
+	],
+	"indent_guide_options":
+	[
+		"draw_active",
+		"draw_normal"
+	],
+	"line_padding_bottom": 0,
+	"line_padding_top": 0,
+	"margin": 0,
+	"match_brackets": false,
+	"material_theme_tree_headings": true,
+	"monaco_ui": true,
+	"overlay_scroll_bars": "enabled",
+	"remember_open_files": true,
+	"save_on_focus_lost": true,
+	"scroll_past_end": false,
+	"show_full_path": true,
+	"show_minimap": false,
+	"tab_size": 4,
+	"theme": "Hero Dark.sublime-theme"
+}

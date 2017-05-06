@@ -1,0 +1,50 @@
+
+brew tap homebrew/versions
+brew tap homebrew/binary
+
+brew update
+brew upgrade
+
+brew install cairo
+brew install gcc
+brew install isl
+brew install maven@3.1
+brew install python3
+brew install yarn
+brew install cask
+brew install gdbm
+brew install isl@0.12
+brew install mpfr
+brew install qrupdate
+brew install zsh
+brew install chromedriver
+brew install gettext
+brew install jpeg
+brew install node
+brew install readline
+brew install zsh-lovers
+brew install cloog
+brew install git
+brew install libffi
+brew install openssl
+brew install sbt
+brew install elm-format
+brew install glib
+brew install libmpc
+brew install pcre
+brew install sqlite
+brew install emacs
+brew install gmp
+brew install libpng
+brew install pixman
+brew install tree
+brew install fontconfig
+brew install gmp@4
+brew install libtiff
+brew install pkg-config
+brew install veclibfort
+brew install freetype
+brew install icu4c
+brew install maven31
+brew install python
+brew install xz

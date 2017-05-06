@@ -1,0 +1,6 @@
+
+brew cask install atom
+brew cask install elm-platform
+brew cask install hyper
+brew cask install lighttable
+brew cask install mongodb

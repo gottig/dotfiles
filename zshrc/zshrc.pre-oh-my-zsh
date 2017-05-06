@@ -1,0 +1,29 @@
+alias ll='ls -l'
+alias la='ls -a'
+alias cls=clear
+alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+#alias startdocker="/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh"
+#alias evaldocker='eval "$(docker-machine env default)"'
+
+# Set prompts
+PROMPT='%m%# '    # default prompt
+#RPROMPT=' %~'     # prompt for right side of screen
+
+export PATH=/usr/local/Cellar/python/2.7.11/bin:$PATH:$HOME/m101p/mongodb-osx-x86_64-3.2.4/bin:$HOME/share/scala/bin
+
+bindkey -v
+
+function setjdk() {
+  if [ $# -ne 0 ]; then
+   removeFromPath '/System/Library/Frameworks/JavaVM.framework/Home/bin'
+   if [ -n "${JAVA_HOME+x}" ]; then
+    removeFromPath $JAVA_HOME
+   fi
+   export JAVA_HOME=`/usr/libexec/java_home -v $@`
+   export PATH=$JAVA_HOME/bin:$PATH
+  fi
+}
+function removeFromPath() {
+  export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
+}
+setjdk 1.8

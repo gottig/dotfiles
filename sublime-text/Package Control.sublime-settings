@@ -22,6 +22,8 @@
 		"FileDiffs",
 		"FileManager",
 		"Fold Comments",
+		"Git",
+		"GitGutter",
 		"Go To Definition",
 		"GoToClass",
 		"Gradle_Language",
@@ -51,6 +53,7 @@
 		"Theme - Hero",
 		"Themes Menu Switcher",
 		"ThemeTweaker",
+		"TrailingSpaces",
 		"View In Browser",
 		"Vintageous"
 	]

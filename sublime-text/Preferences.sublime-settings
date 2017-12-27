@@ -4,7 +4,7 @@
 	"bold_folder_labels": true,
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
-	"color_scheme": "Packages/Colorsublime - Themes/Abyss.tmTheme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 	"draw_white_space": "none",
 	"find_selected_text": true,
 	"font_face": "Ubuntu Mono",
@@ -13,7 +13,7 @@
 		"subpixel_antialias",
 		"no_bold"
 	],
-	"font_size": 20,
+	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"icon_file_type_enable": true,

@@ -7,12 +7,16 @@
 	[
 		"A File Icon",
 		"Advanced CSV",
+<<<<<<< HEAD
 		"Agila Theme",
 		"Atomic Color Scheme",
 		"Boxy Theme",
 		"Boxy Theme Addon - Font Face",
 		"Boxy Theme Addon - Mono File Icons",
 		"Boxy Theme Addon - Widget Font Size",
+=======
+		"ayu",
+>>>>>>> c9fec947be630dd45339d58be246ccd362303a56
 		"BracketHighlighter",
 		"Chrome Color Scheme",
 		"Color Scheme - Dusk",
@@ -50,7 +54,6 @@
 		"Oracle PL SQL",
 		"Package Control",
 		"PackageResourceViewer",
-		"Perforce",
 		"PlatformSettings",
 		"PowerCursors",
 		"Preferences Editor",
@@ -64,11 +67,18 @@
 		"StringEncode",
 		"SublimeCodeIntel",
 		"Text Pastry",
+<<<<<<< HEAD
 		"Theme - Brogrammer",
 		"Theme - Eightlime",
 		"Theme - Elementary",
 		"Theme - Gravity",
 		"Theme - Soda",
+=======
+		"Theme - Cyanide",
+		"Theme - Flatland",
+		"Theme - Freesia",
+		"Theme - Hero",
+>>>>>>> c9fec947be630dd45339d58be246ccd362303a56
 		"Themes Menu Switcher",
 		"ThemeTweaker",
 		"Trimmer",

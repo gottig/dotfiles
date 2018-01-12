@@ -5,17 +5,14 @@
 	"bold_folder_labels": true,
 	"caret_extra_bboxyn": 0,
 	"caret_extra_top": 0,
-	"caret_extra_width": 0,
-	"caret_style": "phase",
+	"caret_extra_width": 1,
+	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/KyzDark.tmTheme",
+	"color_scheme": "Mariana.sublime-color-scheme",
 	"contrasted_semi_sidebar": true,
 	"contrasted_semi_tabs": true,
 	"dc_use_folder_icon2": true,
 	"dc_use_group_icon4": true,
-	"caret_extra_width": 1,
-	"caret_style": "smooth",
-	"color_scheme": "Mariana.sublime-color-scheme",
 	"draw_white_space": "none",
 	"enable_tab_scrolling": true,
 	"fade_fold_buttons": false,
@@ -42,9 +39,10 @@
 	"font_options":
 	[
 		"subpixel_antialias",
+		"gray_antialias",
 		"directwrite"
 	],
-	"font_size": 12,
+	"font_size": 13,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_font_large": true,
 	"gruvbox_autocomplete_cramped": true,
@@ -52,15 +50,18 @@
 	"gruvbox_sidebar_cramped": true,
 	"gruvbox_statusbar_xxs": true,
 	"gruvbox_tabs_xxs": true,
-	"font_size": 18,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
+		"0_package_control_loader",
 		"CopyEdit",
 		"Hide Menu",
-		"ImprovedSQL"
+		"ImprovedSQL",
+		"ProjectManager",
+		"SideBarEnhancements",
+		"SqlBeautifier"
 	],
 	"indent_guide_options":
 	[

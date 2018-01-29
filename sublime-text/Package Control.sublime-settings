@@ -14,6 +14,8 @@
 		"ExtendedTabSwitcher",
 		"FileDiffs",
 		"Fold Comments",
+		"GitGutter",
+		"GitSavvy",
 		"Indent XML",
 		"JsonTree",
 		"Keymaps",

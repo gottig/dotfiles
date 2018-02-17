@@ -36,14 +36,14 @@
 		"tmp/export_tree*",
 		"tmp/sass_compiler*"
 	],
-	"font_face": "Hasklig",
+	"font_face": "Cousine",
 	"font_options":
 	[
 		"subpixel_antialias",
 		"gray_antialias",
 		"directwrite"
 	],
-	"font_size": 13,
+	"font_size": 19,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_font_large": true,
 	"gruvbox_autocomplete_cramped": true,
@@ -57,7 +57,8 @@
 	"ignored_packages":
 	[
 		"EmoKid Color Scheme",
-		"JsonTree"
+		"JsonTree",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[

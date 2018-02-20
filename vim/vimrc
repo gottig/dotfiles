@@ -44,7 +44,7 @@ set autowriteall            " Auto-write all file changes
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set font according to system
 if has("mac") || has("macunix")
-    set gfn=Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
+    set gfn=Hack:h18,Source\ Code\ Pro:h15,Menlo:h15
 elseif has("win16") || has("win32")
     set gfn=Hack:h11,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("gui_gtk2")
@@ -85,7 +85,13 @@ endfunction
 
 " To maximize the initial Vim window under Windows
 " Use ~x on an English Windows version or ~n for French.
-au GUIEnter * simalt ~x
+" Properly disable sound on errors on MacVim
+if has("gui_macvim")
+    autocmd GUIEnter * set vb t_vb=
+else
+    au GUIEnter * simalt ~x
+endif
+
 
 " Maximize or set initial window size
 if has("gui_running")

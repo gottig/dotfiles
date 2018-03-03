@@ -1,12 +1,77 @@
-execute pathogen#infect()
-syntax on               " Enable syntax highlighting
+set nocompatible  " be iMproved, required
+filetype off  " required
+set exrc
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" ==== plugin manager
+Plugin 'VundleVim/Vundle.vim'
+
+" ==== helpers
+Plugin 'vim-scripts/L9'
+
+" ==== File tree
+Plugin 'scrooloose/nerdtree'
+
+" ==== Completion
+"Plugin 'Valloric/YouCompleteMe'
+
+" ==== Git
+Plugin 'airblade/vim-gitgutter'
+Plugin 'tpope/vim-fugitive'
+
+" ==== syntax helpers
+Plugin 'scrooloose/syntastic'
+Plugin 'tpope/vim-surround'
+Plugin 'cakebaker/scss-syntax.vim'
+Plugin 'othree/yajs.vim'
+Plugin 'mitsuhiko/vim-jinja'
+Plugin 'octol/vim-cpp-enhanced-highlight'
+Plugin 'ap/vim-css-color'
+Plugin 'Vimjas/vim-python-pep8-indent'
+
+" ==== moving / searching
+Plugin 'easymotion/vim-easymotion'
+Plugin 'ctrlpvim/ctrlp.vim'
+
+" ==== snippets
+Plugin 'SirVer/ultisnips'
+
+" Status bar on bottom
+Plugin 'bling/vim-airline'
+
+" ==== PLUGIN THEMES
+Plugin 'morhetz/gruvbox'
+Plugin 'sjl/badwolf'
+Plugin 'gmist/vim-palette'
+
+" ==== Auto pairs
+" https://github.com/jiangmiao/auto-pairs
+Plugin 'jiangmiao/auto-pairs'
+
+" ==== Scriptease
+" https://github.com/tpope/vim-scriptease
+Plugin 'tpope/vim-scriptease'
+
+" ==== JavaScript plugin
+" https://github.com/pangloss/vim-javascript
+Plugin 'pangloss/vim-javascript'
+
+call vundle#end()
+
 filetype plugin indent on
+
+syntax enable               " Enable syntax highlighting
 
 " Color scheme to apply
 "colorscheme editPlus
-colorscheme horseradish256
+"colorscheme horseradish256
+colorscheme greenvision
+"colorscheme gruvbox
 
-set colorcolumn=110
+"set colorcolumn=110
+let &colorcolumn="80"
 
 set number              " Show line number on the gutter
 set showmatch           " Highlight matching brace
@@ -60,6 +125,8 @@ elseif has("unix")
 endif
 
 " Disable scrollbars (real hackers don't use scrollbars for navigation!)
+set guioptions-=m           " Remove menu bar
+set guioptions-=T           " Remove toolbar
 set guioptions-=r
 set guioptions-=R
 set guioptions-=l
@@ -115,11 +182,6 @@ endif
 " How can I close vim if the only window left open is a NERDTree?
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
-" How can I change default arrows?
-" Use these variables in your vimrc. Note that below are default arrow symbols
-let g:NERDTreeDirArrowExpandable = '>'
-let g:NERDTreeDirArrowCollapsible = '^'
-
 " Syntastic recommended settings
 " https://github.com/vim-syntastic/syntastic
 set statusline+=%#warningmsg#
@@ -129,10 +191,39 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_mri_args = "--config=$HOME/.jshintrc"
+let g:syntastic_python_checkers = [ 'pylint', 'flake8', 'pep8', 'pyflakes', 'python']
+let g:syntastic_yaml_checkers = ['jsyaml']
+let g:syntastic_html_tidy_exec = 'tidy5'
 
 " Nerd Tree recommended settings
+" How can I change default arrows?
+" Use these variables in your vimrc. Note that below are default arrow symbols
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 " Stick this in your vimrc to open NERDTree with Ctrl+n (you can set whatever key you want):
 map <C-n> :NERDTreeToggle<CR>
 
+set fillchars+=vert:\$
+set background=dark
+set ruler
+set hidden
+set smartindent
+
+" ==== disable swap file warning
+set shortmess+=A
+
+" ==== disable mouse
+set mouse=c
+
+" ==== Easymotion
+let g:EasyMotion_do_mapping = 0
+let g:EasyMotion_smartcase = 1
+nmap f <Plug>(easymotion-s)
+
+" ==== moving around
+"nmap <silent> <A-Up> :wincmd k<CR>
+"nmap <silent> <A-Down> :wincmd j<CR>
+"nmap <silent> <A-Left> :wincmd h<CR>
+"nmap <silent> <A-Right> :wincmd l<CR>

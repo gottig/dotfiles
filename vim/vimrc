@@ -1,8 +1,12 @@
+execute pathogen#infect()
 syntax on               " Enable syntax highlighting
+filetype plugin indent on
 
 " Color scheme to apply
 "colorscheme editPlus
 colorscheme horseradish256
+
+set colorcolumn=110
 
 set number              " Show line number on the gutter
 set showmatch           " Highlight matching brace
@@ -108,9 +112,6 @@ else
   endif
 endif
 
-" Stick this in your vimrc to open NERDTree with Ctrl+n (you can set whatever key you want):
-map <C-n> :NERDTreeToggle<CR>
-
 " How can I close vim if the only window left open is a NERDTree?
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
@@ -118,3 +119,20 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isT
 " Use these variables in your vimrc. Note that below are default arrow symbols
 let g:NERDTreeDirArrowExpandable = '>'
 let g:NERDTreeDirArrowCollapsible = '^'
+
+" Syntastic recommended settings
+" https://github.com/vim-syntastic/syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+
+" Nerd Tree recommended settings
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+" Stick this in your vimrc to open NERDTree with Ctrl+n (you can set whatever key you want):
+map <C-n> :NERDTreeToggle<CR>
+

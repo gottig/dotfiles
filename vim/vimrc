@@ -2,7 +2,12 @@ set nocompatible  " be iMproved, required
 filetype off  " required
 set exrc
 
-set rtp+=~/.vim/bundle/Vundle.vim
+if has('win32')
+  set rtp+=%HOMEPATH%/vimfiles/bundle/Vundle.vim
+elseif has('mac')
+  set rtp+=~/.vim/bundle/Vundle.vim
+endif
+
 call vundle#begin()
 
 " ==== plugin manager
@@ -67,8 +72,8 @@ syntax enable               " Enable syntax highlighting
 " Color scheme to apply
 "colorscheme editPlus
 "colorscheme horseradish256
-colorscheme greenvision
-"colorscheme gruvbox
+"colorscheme greenvision
+colorscheme gruvbox
 
 "set colorcolumn=110
 let &colorcolumn="80"
@@ -77,9 +82,9 @@ set number              " Show line number on the gutter
 set showmatch           " Highlight matching brace
 
 " Powerline status bar
-python from powerline.vim import setup as powerline_setup
-python powerline_setup()
-python del powerline_setup
+"python from powerline.vim import setup as powerline_setup
+"python powerline_setup()
+"python del powerline_setup
 
 
 set laststatus=2            " Always display the status line, even if only one window is displayed
@@ -200,8 +205,8 @@ let g:syntastic_html_tidy_exec = 'tidy5'
 " Nerd Tree recommended settings
 " How can I change default arrows?
 " Use these variables in your vimrc. Note that below are default arrow symbols
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
+let g:NERDTreeDirArrowExpandable = '>'
+let g:NERDTreeDirArrowCollapsible = '^'
 " Stick this in your vimrc to open NERDTree with Ctrl+n (you can set whatever key you want):
 map <C-n> :NERDTreeToggle<CR>
 

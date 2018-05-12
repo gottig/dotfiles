@@ -1,0 +1,10 @@
+alias ll='ls -l'
+alias la='ls -a'
+alias cls=clear
+alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
+
+export GOPATH=${HOME}/go
+
+export PATH="/usr/local/opt/curl/bin:$PATH:/usr/local/opt/go/libexec/bin"

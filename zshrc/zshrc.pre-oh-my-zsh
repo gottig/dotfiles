@@ -28,4 +28,4 @@ function setjdk() {
 function removeFromPath() {
   export PATH=$(echo $PATH | sed -E -e "s;:$1;;" -e "s;$1:?;;")
 }
-setjdk 9
+setjdk 10

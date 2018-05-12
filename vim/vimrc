@@ -3,7 +3,7 @@ filetype off  " required
 set exrc
 
 if has('win32')
-  set rtp+=%HOMEPATH%/vimfiles/bundle/Vundle.vim
+  set rtp+=%USERPROFILE%/vimfiles/bundle/Vundle.vim
 elseif has('mac')
   set rtp+=~/.vim/bundle/Vundle.vim
 endif

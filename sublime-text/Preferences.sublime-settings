@@ -1,6 +1,7 @@
 {
 	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
+  "auto_complete_with_fields": true,
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_extra_bboxyn": 0,
@@ -56,6 +57,7 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
+		"CSS",
 		"EmoKid Color Scheme",
 		"JsonTree",
 		"Markdown"
@@ -75,6 +77,7 @@
 	"overlay_scroll_bars": "enabled",
 	"save_on_focus_lost": true,
 	"scroll_past_end": false,
+  "show_css_completions": false,
 	"show_full_path": true,
 	"show_minimap": false,
 	"sidebar_size_12": true,

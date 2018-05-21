@@ -8,7 +8,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Rainglow/rainglow/Fodder (rainglow).tmTheme",
+	"color_scheme": "Packages/Theme - Hero/Hero Dark.tmTheme",
 	"contrasted_semi_sidebar": true,
 	"contrasted_semi_tabs": true,
 	"dc_use_folder_icon2": true,
@@ -36,14 +36,14 @@
 		"tmp/export_tree*",
 		"tmp/sass_compiler*"
 	],
-	"font_face": "Hasklig",
+	"font_face": "Hack",
 	"font_options":
 	[
 		"subpixel_antialias",
 		"gray_antialias",
 		"directwrite"
 	],
-	"font_size": 11,
+	"font_size": 12,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_font_large": true,
 	"gruvbox_autocomplete_cramped": true,
@@ -56,9 +56,6 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"EmoKid Color Scheme",
-		"JsonTree",
-		"Markdown"
 	],
 	"indent_guide_options":
 	[

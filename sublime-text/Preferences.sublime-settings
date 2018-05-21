@@ -1,6 +1,7 @@
 {
 	"atomic_save": false,
 	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
 	"auto_match_enabled": true,
 	"bold_folder_labels": true,
 	"caret_extra_bboxyn": 0,
@@ -8,7 +9,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Theme - Hero/Hero Dark.tmTheme",
+	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Dracula.tmTheme",
 	"contrasted_semi_sidebar": true,
 	"contrasted_semi_tabs": true,
 	"dc_use_folder_icon2": true,
@@ -36,7 +37,7 @@
 		"tmp/export_tree*",
 		"tmp/sass_compiler*"
 	],
-	"font_face": "Hack",
+	"font_face": "Isoevka",
 	"font_options":
 	[
 		"subpixel_antialias",
@@ -56,6 +57,10 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
+		"CSS",
+		"EmoKid Color Scheme",
+		"JsonTree",
+		"Markdown"
 	],
 	"indent_guide_options":
 	[
@@ -67,13 +72,22 @@
 	"line_padding_top": 1,
 	"margin": 0,
 	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_content": false,
+	"match_brackets_square": false,
+	"match_tags": false,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
 	"overlay_scroll_bars": "enabled",
 	"save_on_focus_lost": true,
 	"scroll_past_end": false,
+	"show_bracket_popup_always": false,
+	"show_css_completions": false,
 	"show_full_path": true,
 	"show_minimap": false,
+	"show_offscreen_bracket_popup": true,
+	"show_unmatched": true,
 	"sidebar_size_12": true,
 	"skin": "Agila Theme/Agila - Dracula",
 	"status_bar_brighter": true,

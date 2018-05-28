@@ -1,7 +1,17 @@
-
+brew cask font-cousine
+brew cask font-hack
+brew cask font-ibm-plex
+brew cask font-inconsolata
+brew cask font-iosevka
+brew cask font-nanumgothiccoding
+brew cask install alfred
 brew cask install atom
 brew cask install elm-platform
 brew cask install hyper
 brew cask install lighttable
 brew cask install mongodb
-brew cask install alfred
+brew cask java8
+brew cask julia
+brew cask koala
+brew cask macvim
+brew cask visual-studio-code

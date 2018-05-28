@@ -9,7 +9,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Colorsublime - Themes/cache/Colorsublime-Themes-master/themes/Dracula.tmTheme",
+	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"contrasted_semi_sidebar": true,
 	"contrasted_semi_tabs": true,
 	"dc_use_folder_icon2": true,
@@ -44,7 +44,7 @@
 		"gray_antialias",
 		"directwrite"
 	],
-	"font_size": 17,
+	"font_size": 12,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_font_large": true,
 	"gruvbox_autocomplete_cramped": true,

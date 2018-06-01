@@ -1,7 +1,7 @@
 alias ll='ls -l'
 alias la='ls -a'
 alias cls=clear
-alias st="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias st="/usr/local/bin/subl"
 #alias startdocker="/Applications/Docker/Docker\ Quickstart\ Terminal.app/Contents/Resources/Scripts/start.sh"
 #alias evaldocker='eval "$(docker-machine env default)"'
 

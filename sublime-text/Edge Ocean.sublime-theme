@@ -1,0 +1,25 @@
+[
+  {
+    "class": "label_control",
+    "color": [
+      255,
+      255,
+      255
+    ],
+    "font.size": 18.0,
+    "shadow_color": [
+      24,
+      24,
+      24
+    ],
+    "shadow_offset": [
+      0,
+      -1
+    ]
+  },
+  {
+    "class": "sidebar_label",
+    "font.bold": false,
+    "font.size": 16
+  }
+]

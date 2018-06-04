@@ -57,10 +57,6 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"CSS",
-		"EmoKid Color Scheme",
-		"JsonTree",
-		"Markdown"
 	],
 	"indent_guide_options":
 	[

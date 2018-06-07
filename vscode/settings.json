@@ -1,0 +1,29 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontSize": 19,
+    "editor.fontFamily": "Iosevka, Hasklig, monospace",
+    "terminal.integrated.fontSize": 17,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.minimap.enabled": false,
+    "files.autoSave": "onFocusChange",
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "window.restoreFullscreen": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true
+    },
+    "terminal.integrated.fontFamily": "'Monoisome', 'Fira Code', monospace",
+    "workbench.colorTheme": "Dracula",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "explorer.confirmDelete": false,
+    "editor.minimap.side": "left",
+    "gitlens.keymap": "chorded",
+    "gitlens.historyExplorer.enabled": true,
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    "window.zoomLevel": 0,
+  }

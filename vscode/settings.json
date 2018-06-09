@@ -1,7 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.fontSize": 19,
-    "editor.fontFamily": "Iosevka, Hasklig, monospace",
+  "editor.fontFamily": "Iosevka, Hasklig, monospace",
     "terminal.integrated.fontSize": 17,
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
@@ -16,7 +15,7 @@
         "**/.DS_Store": true
     },
     "terminal.integrated.fontFamily": "'Monoisome', 'Fira Code', monospace",
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Dark+ Material",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "explorer.confirmDelete": false,
     "editor.minimap.side": "left",
@@ -25,5 +24,6 @@
     "gitlens.advanced.messages": {
         "suppressShowKeyBindingsNotice": true
     },
-    "window.zoomLevel": 0,
+    "editor.cursorStyle": "block-outline",
+    "editor.fontSize": 20,
   }

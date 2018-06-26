@@ -97,7 +97,7 @@
 	"tabs_label_not_italic": true,
 	"tabs_padding_small": true,
 	"tabs_small": true,
-	"theme": "Edge Ocean.sublime-theme",
+	"theme": "Darkmatter.sublime-theme",
 	"theme_accent_numix": true,
 	"theme_agila_compact_tab": true,
 	"theme_autocomplete_item_selected_colored": true,
@@ -123,5 +123,8 @@
 	"theme_tab_selected_underlined": true,
 	"theme_tab_separator_hide": true,
 	"theme_tab_size_lg": true,
+	"darkmatter_tabs_small": true,
+	"darkmatter_sidebar_font_normal": true,
+	"darkmatter_tabs_font_small": true,
 	"theme_unified": true
 }

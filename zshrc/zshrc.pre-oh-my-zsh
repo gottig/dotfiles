@@ -8,7 +8,7 @@ alias st="/usr/local/bin/subl"
 # Set prompts
 #PROMPT='%m%# '    # default prompt
 #RPROMPT=' %~'     # prompt for right side of screen
-source $HOME/repos/oh-my-git/prompt.sh
+source $HOME/repos/tools/oh-my-git/prompt.sh
 
 export PATH=/usr/local/Cellar/python/2.7.11/bin:$PATH:$HOME/m101p/mongodb-osx-x86_64-3.2.4/bin:$HOME/share/scala/bin
 

@@ -12,6 +12,9 @@
 	"color_scheme": "Packages/Dracula Color Scheme/Dracula.tmTheme",
 	"contrasted_semi_sidebar": true,
 	"contrasted_semi_tabs": true,
+	"darkmatter_sidebar_font_normal": true,
+	"darkmatter_tabs_font_small": true,
+	"darkmatter_tabs_small": true,
 	"dc_use_folder_icon2": true,
 	"dc_use_group_icon4": true,
 	"draw_white_space": "none",
@@ -123,8 +126,5 @@
 	"theme_tab_selected_underlined": true,
 	"theme_tab_separator_hide": true,
 	"theme_tab_size_lg": true,
-	"darkmatter_tabs_small": true,
-	"darkmatter_sidebar_font_normal": true,
-	"darkmatter_tabs_font_small": true,
 	"theme_unified": true
 }

@@ -53,7 +53,7 @@
 		"gray_antialias",
 		"directwrite"
 	],
-	"font_size": 13,
+	"font_size": 18,
 	"gravity_highlight_color_blue": true,
 	"gravity_tab_font_large": true,
 	"gruvbox_autocomplete_cramped": true,

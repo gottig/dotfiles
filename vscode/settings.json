@@ -1,6 +1,6 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.fontFamily": "Hasklig, Iosevka, monospace",
+  "editor.fontFamily": "'Dank Mono', Hasklig, Iosevka, monospace",
     "terminal.integrated.fontSize": 17,
     "workbench.iconTheme": "material-icon-theme",
     "editor.minimap.enabled": false,
@@ -15,7 +15,7 @@
         "**/.DS_Store": true
     },
     "terminal.integrated.fontFamily": "'Monoisome', 'Fira Code', monospace",
-    "workbench.colorTheme": "Ayu Dark",
+    "workbench.colorTheme": "Dracula",
     "terminal.integrated.shell.osx": "/bin/zsh",
     "explorer.confirmDelete": false,
     "editor.minimap.side": "left",
@@ -26,4 +26,5 @@
     },
     "editor.fontSize": 20,
     "window.zoomLevel": 0,
+    "breadcrumbs.enabled": true,
   }

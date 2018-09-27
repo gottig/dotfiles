@@ -2,10 +2,12 @@ set nocompatible  " be iMproved, required
 filetype off  " required
 set exrc
 
-if has('win32')
+let os=substitute(system('uname'), '\n', '', '')
+
+if os == 'Darwin' || os == 'Mac'
+	set rtp+=~/.vim/bundle/Vundle.vim
+elseif has('win32')
   set rtp+=%USERPROFILE%/vimfiles/bundle/Vundle.vim
-elseif has('mac')
-  set rtp+=~/.vim/bundle/Vundle.vim
 endif
 
 call vundle#begin()
@@ -70,10 +72,11 @@ filetype plugin indent on
 syntax enable               " Enable syntax highlighting
 
 " Color scheme to apply
+colorscheme dracula
 "colorscheme editPlus
 "colorscheme horseradish256
 "colorscheme greenvision
-colorscheme gruvbox
+"colorscheme gruvbox
 
 "set colorcolumn=110
 let &colorcolumn="80"
@@ -117,8 +120,8 @@ set autowriteall            " Auto-write all file changes
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set font according to system
-if has("mac") || has("macunix")
-    set gfn=Hack:h18,Source\ Code\ Pro:h15,Menlo:h15
+if os == 'Darwin' || os == 'Mac'
+    set gfn=Dank\ Mono:h18,Hack:h18,Source\ Code\ Pro:h15,Menlo:h15
 elseif has("win16") || has("win32")
     set gfn=Hack:h11,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("gui_gtk2")
@@ -139,9 +142,9 @@ set guioptions-=L
 
 " status line {
 set laststatus=2
-set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \ 
-set statusline+=\ \ \ [%{&ff}/%Y] 
-set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\ 
+set statusline=\ %{HasPaste()}%<%-15.25(%f%)%m%r%h\ %w\ \
+set statusline+=\ \ \ [%{&ff}/%Y]
+set statusline+=\ \ \ %<%20.30(%{hostname()}:%{CurDir()}%)\
 set statusline+=%=%-10.(%l,%c%V%)\ %p%%/%L
 
 function! CurDir()

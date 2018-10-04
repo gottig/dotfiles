@@ -1,0 +1,7 @@
+=== Notes on Visual Studio Code
+
+Run this command to list extensions and output command to install extensions
+----
+code --list-extensions | xargs -L 1 echo code --install-extension
+----
+Source: link:https://stackoverflow.com/a/49398449[]

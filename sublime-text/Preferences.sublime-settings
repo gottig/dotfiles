@@ -46,7 +46,7 @@
 		"tmp/export_tree*",
 		"tmp/sass_compiler*"
 	],
-	"font_face": "Isoevka",
+	"font_face": "Dank Mono",
 	"font_options":
 	[
 		"subpixel_antialias",

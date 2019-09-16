@@ -24,8 +24,10 @@
 		"Fold Comments",
 		"GitGutter",
 		"GraphQL",
+		"Guna",
 		"Indent XML",
 		"JsonTree",
+		"JsPrettier",
 		"Keymaps",
 		"Lucario Color Scheme",
 		"Oracle PL SQL",
@@ -52,6 +54,7 @@
 		"Trimmer",
 		"VintageColor",
 		"Vintageous",
+		"Witness color scheme",
 		"WordHighlight"
 	]
 }

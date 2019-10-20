@@ -2,6 +2,7 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Witness color scheme"
 	],
 	"installed_packages":
 	[
@@ -24,8 +25,10 @@
 		"Fold Comments",
 		"GitGutter",
 		"GraphQL",
+		"Guna",
 		"Indent XML",
 		"JsonTree",
+		"JsPrettier",
 		"Keymaps",
 		"Kotlin",
 		"Lucario Color Scheme",
@@ -53,6 +56,7 @@
 		"Trimmer",
 		"VintageColor",
 		"Vintageous",
+		"Witness color scheme",
 		"WordHighlight"
 	]
 }

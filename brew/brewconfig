@@ -43,6 +43,7 @@ brew install libvterm
 brew install libyaml
 brew install lua
 brew install luajit
+brew install lzo
 brew install maven31
 brew install maven@3.1
 brew install mongodb
@@ -54,6 +55,7 @@ brew install nettle
 brew install node
 brew install openblas
 brew install openssl
+brew install openssl@1.1
 brew install p11-kit
 brew install pcre
 brew install pcre2
@@ -66,6 +68,7 @@ brew install python@2
 brew install qrupdate
 brew install r
 brew install readline
+brew install rename
 brew install ruby
 brew install sbt
 brew install sphinx-doc

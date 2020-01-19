@@ -86,4 +86,7 @@ export PATH="/usr/local/opt/curl/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbi
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
+# Opt out of sending telemetry data to Microsoft
+export POWERSHELL_TELEMETRY_OPTOUT=1
+
 source ~/.zshrc.pre-oh-my-zsh

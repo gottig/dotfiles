@@ -30,4 +30,4 @@ function removeFromPath() {
 }
 
 # Set Java JDK to use here
-setjdk 12
+setjdk 13

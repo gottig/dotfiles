@@ -54,25 +54,32 @@ Plug 'joshdick/onedark.vim'
 " Git gutter
 Plug 'airblade/vim-gitgutter'
 
+" A collections of language packs for vim
+" https://github.com/sheerun/vim-polyglot
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
 
 " Color scheme configurations
-" grubox configurations
-"colorscheme gruvbox
-"set background=dark " use dark mode
+" gruvbox configurations
+colorscheme gruvbox
+set background=dark " use dark mode
 
-colorscheme onedark
+"colorscheme onedark
 
+" Keep syntax on
 syntax on
 
 " Add line numbers
 set nu
 
-let g:airline_theme='lightline'
+" Status bar airline theme screenshots at
+" https://github.com/vim-airline/vim-airline/wiki/Screenshots
+let g:airline_theme='papercolor'
 
-let g:lightline = {
-  \ 'colorscheme': 'onedark',
-  \ }
+" let g:lightline = {
+"   \ 'colorscheme': 'onedark',
+"   \ }
 
 "let g:deoplete"enable_at_startup = 1
 

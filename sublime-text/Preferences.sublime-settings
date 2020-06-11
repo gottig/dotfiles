@@ -9,7 +9,7 @@
 	"caret_extra_width": 1,
 	"caret_style": "smooth",
 	"close_windows_when_empty": false,
-	"color_scheme": "Packages/Rainglow/rainglow/Tron Light (rainglow).tmTheme",
+	"color_scheme": "Packages/Theme - Flatland/Flatland Dark.tmTheme",
 	"contrasted_semi_sidebar": true,
 	"contrasted_semi_tabs": true,
 	"darkmatter_sidebar_font_normal": true,
@@ -53,7 +53,7 @@
 		"gray_antialias",
 		"directwrite"
 	],
-	"font_size": 15,
+	"font_size": 12,
 	"gn_hide_tab_dropdown": true,
 	"gn_overlay_scroll_bars": true,
 	"gn_sb_cnvx": true,
@@ -71,8 +71,7 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"Guna",
-		"zzz A File Icon zzz"
+		"Guna"
 	],
 	"indent_guide_options":
 	[

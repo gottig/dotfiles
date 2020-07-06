@@ -1,10 +1,10 @@
 #!/bin/bash
 
 code --install-extension 2gua.rainbow-brackets
-code --install-extension abadi199.elm-format
 code --install-extension akamud.vscode-theme-onedark
 code --install-extension alefragnani.Bookmarks
 code --install-extension arcticicestudio.nord-visual-studio-code
+code --install-extension asciidoctor.asciidoctor-vscode
 code --install-extension azemoh.one-monokai
 code --install-extension codezombiech.gitignore
 code --install-extension CoenraadS.bracket-pair-colorizer
@@ -24,12 +24,10 @@ code --install-extension mariorodeghiero.vue-theme
 code --install-extension mechatroner.rainbow-csv
 code --install-extension mhutchie.git-graph
 code --install-extension mohsen1.prettify-json
-code --install-extension ms-vscode.Go
 code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension PKief.material-icon-theme
-code --install-extension PKief.material-icon-theme
+code --install-extension ritwickdey.live-sass
 code --install-extension ritwickdey.LiveServer
-code --install-extension robertohuertasm.vscode-icons
 code --install-extension sbrink.elm
 code --install-extension sldobri.nord-5-stars
 code --install-extension stayfool.vscode-asciidoc
@@ -39,9 +37,8 @@ code --install-extension tht13.html-preview-vscode
 code --install-extension Tyriar.sort-lines
 code --install-extension vangware.dark-plus-material
 code --install-extension vscodevim.vim
-code --install-extension vsmobile.vscode-react-native
 code --install-extension waderyan.gitblame
 code --install-extension wesbos.theme-cobalt2
 code --install-extension xabikos.JavaScriptSnippets
 code --install-extension yamenarahman.nord-extra-dark
-code --install-extension zhuangtongfa.Material-theme
+code --install-extension zhuangtongfa.material-theme

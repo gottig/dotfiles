@@ -76,7 +76,15 @@
 	"icon_file_type_enable": true,
 	"ignored_packages":
 	[
-		"Guna"
+		"Edge Theme",
+		"EmoKid Color Scheme",
+		"Enki Theme",
+		"Guna",
+		"Lucario Color Scheme",
+		"Rainglow",
+		"Theme - Hero",
+		"Theme - Soda SolarizedDark",
+		"zzz A File Icon zzz"
 	],
 	"indent_guide_options":
 	[

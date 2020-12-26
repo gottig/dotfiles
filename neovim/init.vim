@@ -5,6 +5,9 @@
 " https://github.com/junegunn/vim-plug#usage
 call plug#begin('~/.local/share/nvim/plugged')
 
+" A vim plugin for auto completion library.
+" https://github.com/davidhalter/jedi
+" https://github.com/davidhalter/jedi-vim
 Plug 'davidhalter/jedi-vim'
 
 " Deoplete is the abbreviation of "dark powered neo-completion".
@@ -38,6 +41,7 @@ Plug 'davidhalter/jedi-vim'
 Plug 'scrooloose/nerdtree'
 
 " Multiple cursor editting plugin
+" https://github.com/terryma/vim-multiple-cursors
 Plug 'terryma/vim-multiple-cursors'
 
 " Highlight your yank aera
@@ -45,6 +49,7 @@ Plug 'terryma/vim-multiple-cursors'
 Plug 'machakann/vim-highlightedyank'
 
 " Code folding plugin
+" https://github.com/tmhedberg/SimpylFold
 Plug 'tmhedberg/SimpylFold'
 
 " Color schemes
@@ -87,7 +92,13 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 if (has("termguicolors"))
  set termguicolors
 endif
-let g:airline_theme='oceanicnext'
+
+" Airline theme plugin to set
+" https://github.com/vim-airline/vim-airline/wiki/Screenshots
+let g:airline_theme='violet'
+
+"Set highlight duration time to 1000 ms, i.e., 1 second
+let g:highlightedyank_highlight_duration = 1000
 
 " let g:lightline = {
 "   \ 'colorscheme': 'onedark',

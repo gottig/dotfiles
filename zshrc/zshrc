@@ -90,3 +90,8 @@ export PATH="/usr/local/opt/curl/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbi
 export POWERSHELL_TELEMETRY_OPTOUT=1
 
 source ~/.zshrc.pre-oh-my-zsh
+
+# Adding tcl-tk version for python IDLE
+export PATH="/usr/local/opt/tcl-tk/bin:$PATH" 
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
